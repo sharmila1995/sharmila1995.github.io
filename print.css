@@ -1,0 +1,154 @@
+/*Sharmila Shrestha
+    prime_home.html
+     INFO1311.5A
+     Olberding
+     6/30/18
+*/
+* { box-sizing: border-box; } 
+body{background-color:#E6E6FA;
+     color:#ffffcc;
+	 font-family:arial, helvetica, sans-serif;
+	 margin:0px;
+}
+#container{margin-left:40px;
+		   margin-right:40px;
+		   background-image: linear-gradient(#ffffff,#666666);
+		   background-repeat:no-repeat;
+		   color: #000066;
+		   border-radius:15px;
+		   height:auto;
+		   box-shadow: 5px 5px 5px #000000;
+}
+
+header{background-image: url(cover.jpg);
+	   background-repeat: no-repeat;
+	   background-size: cover;
+	   height:160px;
+	   font-size:1.5em;
+	   color: black;
+}
+/*image from flawlessmilano https://www.flawlessmilano.com/en/best-brunch-milan/
+
+*/
+*
+header img{float:left;
+}
+header h1 {font-family: Georgia, "Times New Roman", serif;
+			color: hsla(80, 100%, 90%, 1);
+			text-shadow: 3px 3px 3px #90745D;
+			text-align: right;
+			margin-top: 10px;
+			padding-right: 20px;
+	  }
+header span { font-family: Georgia, "Times New Roman", serif;
+		color: hsla(80, 100%, 90%, 1);
+		text-shadow: 3px 3px 3px #90745D;
+		font-style: italic;
+			  font-weight: bold;
+			  padding-right: 20px;
+			  text-align: right;
+		      display: block;}
+h2{font-size:1.5em:}
+
+figure {   float: right;
+		   margin: 5px;
+		   padding:5px;
+		   background-color: #FFF;
+		   border: 1px solid #CCC;
+		   box-shadow: 5px 5px 5px #828282;
+		   clear:bottom;
+}
+figcaption {text-align: center;
+		   font-size: .8em;
+		   font-style: italic;}
+
+nav {height: 40px;
+     background-color: #666666;
+	 font-family: georgia, "times new roman", serif;
+	 color: #fff;
+	 font-size: 1.2em;
+}
+nav a {color: #fff;
+       font-weight: bold;
+	   padding-left: 30px;
+	   padding-right: 30px;
+	   border-right: 2px solid #CCC;
+	   text-decoration: none;
+}
+nav ul {list-style-type:none;
+		padding-top: 7px;
+}
+nav li {display: inline;}
+
+ul li{list-style-type:none;
+}
+a:link { color: #E6E6FA; }
+a:hover { color: #000066; }	
+a:active{color:	#A52A2A;}
+a:visited { color: #000000; }
+
+video{float:right;
+	  margin:10px;
+	  }
+main{font-family: Georgia, "Times New Roman", serif;
+	padding-left: 10px;
+	height:auto;
+	overflow: auto;
+	
+}
+
+footer{font-size:.8em;
+       text-align:center;
+	   border-top:1px solid  #003366;
+	   height:100px;
+}
+footer li{display:inline-block;
+          padding-right:5px;
+}
+
+@media only screen and (max-width: 768px) {
+	#container{margin-left:0px;
+		   margin-right:0px;
+		   min-width:450px;
+	}
+	header{font-size: 90%;
+	   padding-left: 0px;
+	}
+	figure{display:none;
+	}
+	nav{height: auto;
+	}
+	nav ul {padding: 0;
+        text-align:center;
+	}
+	nav li {display:block;
+        padding: 0;
+	}
+
+	nav a{display:block;
+		  padding:0.2em;
+		  font-size:100%;
+		  border-right:none;
+		  border-bottom: 1px solid #330000;
+		  transition: background-color 2s linear;
+	}
+	nav a:hover{background-color:#000066;
+				color:#666666;
+	}
+	nav ul{margin:0px;
+		padding:0px;
+	}
+	nav li{ display:block;
+		margin:0px;
+		padding:0px;
+	}
+	footer li{ display: none;
+	}
+    
+#photo {
+	border-radius: 40px;
+	padding: 20px;
+}
+
+		  
+}
